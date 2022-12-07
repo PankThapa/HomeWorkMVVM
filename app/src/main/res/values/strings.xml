@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">HomeWorkMVVM</string>
+
+    <string name="login_screen_title">Login with your credentials</string>
+    <string name="login_username_hint">Username</string>
+    <string name="company_title">SHIVSHAKTI AGRO (INDIA) LIMITED</string>
+    <string name="company_subtitle">AMRIT BREEDER FARMS PVT. LTD.</string>
+    <string name="password_hint">Password</string>
+    <string name="company_more_info">©2022 ShivShakti Agro. All rights reserved.</string>
+    <string name="login_text">Login</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_btn_txt">Login</string>
+    <string name="image_logo">Image Logo</string>
+    <string name="password_field_error">Password Field is empty</string>
+    <string name="username_field_error">UserName Field is empty</string>
+</resources>
