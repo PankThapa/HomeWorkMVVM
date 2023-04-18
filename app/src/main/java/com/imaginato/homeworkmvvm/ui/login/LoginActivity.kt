@@ -33,6 +33,7 @@ class LoginActivity : BaseActivity() {
 
     // handle input field error state
     private fun observedFieldError() {
+        // comenting for testin
 
         viewModel.passwordErrorLiveData.observe(this) { passwordError: Boolean ->
 
