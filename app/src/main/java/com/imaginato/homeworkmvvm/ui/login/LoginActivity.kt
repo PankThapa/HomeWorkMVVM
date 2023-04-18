@@ -32,29 +32,29 @@ class LoginActivity : BaseActivity() {
     }
 
     // handle input field error state
-//    private fun observedFieldError() {
-//        // comenting for testin
-//
-//        viewModel.passwordErrorLiveData.observe(this) { passwordError: Boolean ->
-//
-//            if (passwordError) {
-//
-//                binding.textInputEditTextPassword.error = getString(R.string.password_field_error)
-//
-//                buttonProgressBarAction(isButtonEnabled = true, progressBarVisibility = false)
-//            }
-//
-//        }
-//
-//        viewModel.userNameErrorLiveData.observe(this) { userNameError: Boolean ->
-//            if (userNameError) {
-//
-//                binding.textInputEditTextUsername.error = getString(R.string.username_field_error)
-//
-//                buttonProgressBarAction(isButtonEnabled = true, progressBarVisibility = false)
-//            }
-//        }
-//    }
+    private fun observedFieldError() {
+        // comenting for testin
+
+        viewModel.passwordErrorLiveData.observe(this) { passwordError: Boolean ->
+
+            if (passwordError) {
+
+                binding.textInputEditTextPassword.error = getString(R.string.password_field_error)
+
+                buttonProgressBarAction(isButtonEnabled = true, progressBarVisibility = false)
+            }
+
+        }
+
+        viewModel.userNameErrorLiveData.observe(this) { userNameError: Boolean ->
+            if (userNameError) {
+
+                binding.textInputEditTextUsername.error = getString(R.string.username_field_error)
+
+                buttonProgressBarAction(isButtonEnabled = true, progressBarVisibility = false)
+            }
+        }
+    }
 
     // on login button click
     private fun onLoginButtonClick() {
